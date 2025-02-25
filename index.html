@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Mehendi Art</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather', sans-serif;
+        }
+        /* .navbar-nav {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+        } */
+        .about-us-image{
+            width: 80%;
+            height: 450px;
+            object-fit: cover;
+            object-position: center center;
+            border-radius: 12px 12px 12px 12px;
+        }
+        .navbar-toggler {
+            z-index: 1050;
+        }
+        .navbar-brand img{
+            border-radius: 50%;
+        }
+        .navbar-nav{
+            font-weight: 600;
+        }
+        .hero-section {
+            background-color: #3d3d3d;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .btn-custom {
+            background-color: #d9a15b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+        }
+        .btn-custom:hover {
+            background-color: #b58444;
+        }
+        .services-section {
+            background-color: #a1773b;
+            padding: 50px 20px;
+            color: white;
+        }
+        #contact-section{
+            background-color: #f4f1eb;
+        }
+        .footer {
+            /* background-color: #f4f1eb; */
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- actual nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+        <!-- Logo in the center on desktop -->
+        <a class="navbar-brand d-lg-none" href="#">
+            <img src="assets/images/aryan-logo.jpg" height="70em" alt="Aryan Mehendi Art">
+        </a>
+
+        <!-- Navbar Toggler for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact-section">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about-section">About Us</a></li>
+            </ul>
+
+            <!-- Centered Logo on Desktop -->
+            <a class="navbar-brand d-none d-lg-block" href="#">
+                <img src="assets/images/aryan-logo.jpg" height="100em" alt="Aryan Mehendi Art">
+            </a>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#services-section">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#booking-section">Book Now</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <section class="hero-section">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-8 col-xl-6 text-center aos-init aos-animate" data-aos="fade-up">
+    
+                <!-- Heading -->
+                <h1 class="display-3 mb-4">
+                    Aryan Mehendi Art
+                </h1>
+    
+                <!-- Text -->
+                <p class="fs-lg">
+                    At Aryan Mehendi , we specialize in crafting intricate and elegant designs using premium-quality henna. Our expert artists bring creativity and precision to every pattern, ensuring each design is a masterpiece.
+                    <br><br>
+                    Henna, a natural dye sourced from the finest leaves of the henna plant, is used to create stunning temporary tattoos that symbolize tradition, celebration, and beauty. Our designs are perfect for weddings, festivals, and personal adornments, lasting for weeks as a timeless expression of art.
+                </p>
+    
+                <!-- Button -->
+                <a class="btn btn-custom lift" href="#!">
+                    Contact Now
+                </a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="container my-5" id="about-section">
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="text-warning">Aryan Mehendi</h2>
+                <p>
+                    Aryan Mehendi is a name synonymous with exceptional henna artistry in Kakinada, Andhra Pradesh. With years of dedicated practice, Aryan has transformed the art of mehndi into a captivating expression of culture and creativity.
+                    <br><br>
+                    From traditional bridal motifs to contemporary designs, Aryan’s skilled hands have adorned countless celebrations, adding charm and elegance to every occasion. Each pattern is a reflection of his passion, weaving stories of tradition and festivity.
+                    <br><br>
+                    Through his unique and intricate henna art, Aryan Mehendi  has become a cherished part of Kakinada’s cultural tapestry, leaving a lasting impression on all who experience his craft.
+                </p>
+                <br>
+                <button class="btn btn-custom">Call Now</button>
+            </div>
+            <div class="col-md-5 mt-4 text-center">
+                <img class="about-us-image" src="assets/images/featured-about-us.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="services-section" id="services-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 text-center mt-4">
+                    <img src="assets/images/thumb300x300.jpg" class="img-fluid rounded">
+                    <h4 class="py-3">Bridal Mehendi</h4>
+                    <button class="btn btn-custom">Know More</button>
+                </div>
+                <div class="col-md-4 text-center mt-4">
+                    <img src="assets/images/thumb300x300.jpg" class="img-fluid rounded">
+                    <h4 class="py-3">Rajasthani Mehendi</h4>
+                    <button class="btn btn-custom">Know More</button>
+                </div>
+                <div class="col-md-4 text-center mt-4">
+                    <img src="assets/images/thumb300x300.jpg" class="img-fluid rounded">
+                    <h4 class="py-3">Madhuban Mehendi</h4>
+                    <button class="btn btn-custom">Know More</button>
+                </div>
+                <div class="col-md-4 text-center mt-4">
+                    <img src="assets/images/thumb300x300.jpg" class="img-fluid rounded">
+                    <h4 class="py-3">Normal Mehandi</h4>
+                    <button class="btn btn-custom">Know More</button>
+                </div>
+                <div class="col-md-4 text-center mt-4">
+                    <img src="assets/images/thumb300x300.jpg" class="img-fluid rounded">
+                    <h4 class="py-3">Gujrati Mehndi</h4>
+                    <button class="btn btn-custom">Know More</button>
+                </div>
+                <div class="col-md-4 text-center mt-4">
+                    <img src="assets/images/thumb300x300.jpg" class="img-fluid rounded">
+                    <h4 class="py-3">Baby Shower Mehndi</h4>
+                    <button class="btn btn-custom">Know More</button>
+                </div>
+                <div class="col-md-4 text-center mt-4">
+                    <img src="assets/images/thumb300x300.jpg" class="img-fluid rounded">
+                    <h4 class="py-3">Raksha Bandhan Mehndi</h4>
+                    <button class="btn btn-custom">Know More</button>
+                </div>
+                <div class="col-md-4 text-center mt-4">
+                    <img src="assets/images/thumb300x300.jpg" class="img-fluid rounded">
+                    <h4 class="py-3">Teej Diwali Mehndi</h4>
+                    <button class="btn btn-custom">Know More</button>
+                </div>
+                <div class="col-md-4 text-center mt-4">
+                    <img src="assets/images/thumb300x300.jpg" class="img-fluid rounded">
+                    <h4 class="py-3">Karva Chauth Mehndi</h4>
+                    <button class="btn btn-custom">Know More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5" id="booking-section">
+        <h2 class="text-center">Book Your Appointment</h2>
+        <form>
+            <div class="row g-3 mt-4">
+                <div class="col-sm-6">
+                  <label for="fullName" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="fullName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid full name is required.
+                  </div>
+                </div>
+    
+                <div class="col-sm-6">
+                  <label for="bookingDate" class="form-label">Booking Date</label>
+                  <input type="date" class="form-control" id="bookingDate" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid Booking Date is required.
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <label for="contactNumber" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="contactNumber" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid Phone Number is required.
+                  </div>
+                </div>
+    
+                <div class="col-sm-6">
+                  <label for="message" class="form-label">Message</label>
+                  <input type="text" class="form-control" id="bookingDate" placeholder="Write Your Message" value="">
+                </div>
+              </div>
+            <button class="btn btn-custom w-100 mt-3">Send</button>
+        </form>
+    </section>
+
+    <section class="container mt-4" id="contact-section">
+        <div class="row">
+            <div class="col-2 p-3">
+                <img src="assets/images/aryan-logo.jpg" style="max-width: 100%;" alt="">
+            </div>
+            <div class="col-4 p-3">
+                <h6 class="mb-3 mb-md-2">Quick Links </h6>
+                <ul class="nav flex-column" style="list-style-type: none;">
+                    <li class="nav-item mb-2">
+                      <a class="nav-link p-0 text-body-secondary" href="#!">+91 85338 32486</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a class="nav-link p-0 text-body-secondary" href="#!">aryanmehandiartist849@gmail.com</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a class="nav-link p-0 text-body-secondary" href="#!">Naya Bazar, near Vimal Collection, opposite Kala Bhawan, Mangal Parao, Banbhoolpura, Haldwani, Uttarakhand 263139</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+            <div class="col-4">
+                <iframe loading="lazy"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3816.351963570778!2d82.2365132!3d16.9572291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38293b9c46801f%3A0xe379b879ae5de886!2sAKASH%20MEHANDI%20%26%20TATTOO!5e0!3m2!1sen!2sin!4v1735842085887!5m2!1sen!2sin"
+					title="Ground Floor, Ramasomayajulu St, Near Chanakya Chandragupta Theatre, Surya Rao Peta, Kakinada, Andhra Pradesh 533001"
+					aria-label="Ground Floor, Ramasomayajulu St, Near Chanakya Chandragupta Theatre, Surya Rao Peta, Kakinada, Andhra Pradesh 533001"
+			></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2025 Aryan Mehendi Artist</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
