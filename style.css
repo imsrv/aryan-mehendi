@@ -1,0 +1,53 @@
+body {
+    font-family: 'Merriweather', sans-serif;
+}
+.about-us-image{
+    width: 80%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 12px 12px 12px 12px;
+}
+.services-section img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+}
+.navbar-toggler {
+    z-index: 1050;
+}
+.navbar-brand img{
+    border-radius: 50%;
+}
+.navbar-nav{
+    font-weight: 600;
+}
+.hero-section {
+    background-color: #3d3d3d;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+.btn-custom {
+    background-color: #d9a15b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.btn-custom:hover {
+    background-color: #b58444;
+}
+.services-section {
+    background-color: #a1773b;
+    padding: 50px 20px;
+    color: white;
+}
+#contact-section{
+    background-color: #f4f1eb;
+}
+.footer {
+    /* background-color: #f4f1eb; */
+    padding: 30px;
+    text-align: center;
+}

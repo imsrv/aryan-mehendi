@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,61 +6,7 @@
     <title>Aryan Mehendi Art</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Merriweather', sans-serif;
-        }
-        .about-us-image{
-            width: 80%;
-            height: 450px;
-            object-fit: cover;
-            object-position: center center;
-            border-radius: 12px 12px 12px 12px;
-        }
-        .services-section img{
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-            object-position: center center;
-        }
-        .navbar-toggler {
-            z-index: 1050;
-        }
-        .navbar-brand img{
-            border-radius: 50%;
-        }
-        .navbar-nav{
-            font-weight: 600;
-        }
-        .hero-section {
-            background-color: #3d3d3d;
-            color: white;
-            text-align: center;
-            padding: 80px 20px;
-        }
-        .btn-custom {
-            background-color: #d9a15b;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-        }
-        .btn-custom:hover {
-            background-color: #b58444;
-        }
-        .services-section {
-            background-color: #a1773b;
-            padding: 50px 20px;
-            color: white;
-        }
-        #contact-section{
-            background-color: #f4f1eb;
-        }
-        .footer {
-            /* background-color: #f4f1eb; */
-            padding: 30px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -80,9 +26,9 @@
         <!-- Navbar Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact-section">Contact Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about-section">About Us</a></li>
+                <li class="nav-item px-4"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item px-4"><a class="nav-link" href="#contact-section">Contact Us</a></li>
+                <li class="nav-item px-4"><a class="nav-link" href="#about-section">About Us</a></li>
             </ul>
 
             <!-- Centered Logo on Desktop -->
@@ -91,14 +37,13 @@
             </a>
 
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#services-section">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link" href="#booking-section">Book Now</a></li>
+                <li class="nav-item px-4"><a class="nav-link" href="#services-section">Services</a></li>
+                <li class="nav-item px-4"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item px-4"><a class="nav-link" href="#booking-section">Book Now</a></li>
             </ul>
         </div>
     </div>
 </nav>
-
 
     <section class="hero-section">
         <div class="container-lg">
@@ -118,7 +63,7 @@
                 </p>
 
                 <!-- Button -->
-                <a class="btn btn-custom lift mt-3" href="#!">
+                <a class="btn btn-custom lift mt-3 wa-inq-action" href="#!">
                     Contact Now
                 </a>
               </div>
@@ -138,7 +83,7 @@
                     Through his unique and intricate henna art, Aryan Mehendi  has become a cherished part of Kakinada’s cultural tapestry, leaving a lasting impression on all who experience his craft.
                 </p>
                 <br>
-                <button class="btn btn-custom">Call Now</button>
+                <button class="btn btn-custom" onclick="callNow()">Call Now</button>
             </div>
             <div class="col-md-5 mt-4 text-center">
                 <img class="about-us-image" src="assets/images/gallery/aryan-mehendi.jpeg (10).jpeg" alt="">
@@ -154,47 +99,47 @@
                 <div class="col-md-4 text-center mt-4">
                     <img src="assets/images/Bridal Mehendi Artist.jpeg" class="img-fluid rounded">
                     <h4 class="py-3">Bridal Mehendi</h4>
-                    <button class="btn btn-custom">Know More</button>
+                    <button class="btn btn-custom wa-inq-action">Know More</button>
                 </div>
                 <div class="col-md-4 text-center mt-4">
                     <img src="assets/images/Rajasthani Mehandi Artist.jpeg" class="img-fluid rounded">
                     <h4 class="py-3">Rajasthani Mehendi</h4>
-                    <button class="btn btn-custom">Know More</button>
+                    <button class="btn btn-custom wa-inq-action">Know More</button>
                 </div>
                 <div class="col-md-4 text-center mt-4">
                     <img src="assets/images/Madhubani Mehandi Artist.jpeg" class="img-fluid rounded">
                     <h4 class="py-3">Madhuban Mehendi</h4>
-                    <button class="btn btn-custom">Know More</button>
+                    <button class="btn btn-custom wa-inq-action">Know More</button>
                 </div>
                 <div class="col-md-4 text-center mt-4">
                     <img src="assets/images/Normal Mehandi Artist.jpeg" class="img-fluid rounded">
                     <h4 class="py-3">Normal Mehandi</h4>
-                    <button class="btn btn-custom">Know More</button>
+                    <button class="btn btn-custom wa-inq-action">Know More</button>
                 </div>
                 <div class="col-md-4 text-center mt-4">
                     <img src="assets/images/Gujrati Mehandi Artist.jpeg" class="img-fluid rounded">
                     <h4 class="py-3">Gujrati Mehndi</h4>
-                    <button class="btn btn-custom">Know More</button>
+                    <button class="btn btn-custom wa-inq-action">Know More</button>
                 </div>
                 <div class="col-md-4 text-center mt-4">
                     <img src="assets/images/Baby Shower Mehandi Artist.jpeg" class="img-fluid rounded">
                     <h4 class="py-3">Baby Shower Mehndi</h4>
-                    <button class="btn btn-custom">Know More</button>
+                    <button class="btn btn-custom wa-inq-action">Know More</button>
                 </div>
                 <div class="col-md-4 text-center mt-4">
                     <img src="assets/images/Raksha Bandhan Mehandi Artist.jpeg" class="img-fluid rounded">
                     <h4 class="py-3">Raksha Bandhan Mehndi</h4>
-                    <button class="btn btn-custom">Know More</button>
+                    <button class="btn btn-custom wa-inq-action">Know More</button>
                 </div>
                 <div class="col-md-4 text-center mt-4">
                     <img src="assets/images/Teej Deewali Mehandi Artist.jpeg" class="img-fluid rounded">
                     <h4 class="py-3">Teej Diwali Mehndi</h4>
-                    <button class="btn btn-custom">Know More</button>
+                    <button class="btn btn-custom wa-inq-action">Know More</button>
                 </div>
                 <div class="col-md-4 text-center mt-4">
                     <img src="assets/images/Karwa Chauth Mehandi Artist.jpeg" class="img-fluid rounded">
                     <h4 class="py-3">Karva Chauth Mehndi</h4>
-                    <button class="btn btn-custom">Know More</button>
+                    <button class="btn btn-custom wa-inq-action">Know More</button>
                 </div>
             </div>
         </div>
@@ -233,7 +178,7 @@
                   <input type="text" class="form-control" id="bookingDate" placeholder="Write Your Message" value="">
                 </div>
               </div>
-            <button class="btn btn-custom w-100 mt-3">Send</button>
+            <button class="btn btn-custom w-100 mt-3 wa-inq-action">Send</button>
         </form>
     </section>
 
@@ -272,11 +217,54 @@
     </footer>
     <script async src='vendor/whatsapp-chat-widget/embed.min.js'></script>
     <script>
-      var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"911234567890","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
-      var wa_widgetSetting = {"title":"Aryan Mehendi","subTitle":"Book Your Mehendi","headerBackgroundColor":"#FBFFC8","headerColorScheme":"dark","greetingText":"Hi there! \nHow can I help you?","ctaText":"Start Chat","btnColor":"#16BE45","cornerRadius":40,"welcomeMessage":"Hello","btnColorScheme":"light","brandImage":"","darkHeaderColorScheme":{"title":"#333333","subTitle":"#4F4F4F"}};  
+      let wa_number = "918533832486";
+      let wa_message = "";
+      
+      var wa_btnSetting = {
+        "btnColor":"#16BE45",
+        "ctaText":"WhatsApp Us",
+        "cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,
+        "btnPosition":"right",
+        "whatsAppNumber":wa_number,
+        "welcomeMessage":"Hello, I'm Looking for Mehendi Service",
+        "zIndex":999999,"btnColorScheme":"light"};
+
+      var wa_widgetSetting = {
+        "title":"Aryan Mehendi",
+        "subTitle":"Book Your Mehendi",
+        "headerBackgroundColor":"#FBFFC8",
+        "headerColorScheme":"dark",
+        "greetingText":"Hi there! \nHow can I help you?",
+        "ctaText":"Start Chat",
+        "btnColor":"#16BE45",
+        "cornerRadius":40,
+        "welcomeMessage":"Hello, I'm Looking for Mehendi Service",
+        "btnColorScheme":"light",
+        "brandImage":"",
+        "darkHeaderColorScheme":{"title":"#333333","subTitle":"#4F4F4F"}};  
       window.onload = () => {
         _waEmbed(wa_btnSetting, wa_widgetSetting);
       };
+
+    function callNow() {
+        window.location.href = "tel:+" + wa_number;
+    };
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".wa-inq-action").forEach(button => {
+            button.addEventListener("click", function () {
+                if (!wa_btnSetting?.whatsAppNumber) {
+                    console.error("WhatsApp number is missing in wa_btnSetting");
+                    return;
+                }
+                window.open(`https://wa.me/${wa_btnSetting.whatsAppNumber}?text=` + 
+                    encodeURIComponent(wa_btnSetting.welcomeMessage || ""));
+                });
+            });
+        });
+
+
+
     </script>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
